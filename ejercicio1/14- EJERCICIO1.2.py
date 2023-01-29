@@ -7,8 +7,8 @@ frase = input("Decime una frase y calculo cuanto tardas en decirlo: ")
 palabras_separadas = frase.split(" ")
 cantidad_de_palabras = len(palabras_separadas)
 
-duracion = cantidad_de_palabras *10 // palabras_promedio / 10
-duracion_dalto = cantidad_de_palabras* 10 // palabras_dalto / 10
+duracion = round(cantidad_de_palabras / palabras_promedio ,1)
+duracion_dalto = round(cantidad_de_palabras / palabras_dalto,1)
 
 print("------------------------------------------")
 print (f"Dijiste {cantidad_de_palabras} palabras, y tardarias aproximadamente {duracion} segundos en decirlo")

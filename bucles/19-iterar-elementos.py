@@ -52,3 +52,9 @@ for numero in numeros :
     print(numero)
 else:
     print("El bucle terminó")
+
+
+# for en una línea de código 
+
+numeros_duplicados = [x*2 for x in numeros]
+print(numeros_duplicados)

@@ -32,7 +32,8 @@ for num in range(5,12):
 for nume in range(20):
     print(nume)
 
-# forma no optima de recorre una lista por su indice
+# forma no optima de recorre una lista por su indice 
+#-> NO FUNCIONA en conjuntos
 for numer in range(len(numeros)):
     print(numeros[numer])
 
